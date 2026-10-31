@@ -1,0 +1,10 @@
+<settings>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>YOUR_USERNAME</username>
+      <!-- Pa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ste your GitHub Personal Access Token (PAT) with 'write:packages' scope below -->
+      <password></password>
+    </server>
+  </servers>
+</settings>

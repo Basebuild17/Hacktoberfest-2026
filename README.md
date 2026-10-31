@@ -74,7 +74,9 @@ We aim to keep this project welcoming, respectful, and constructive. Please revi
 
 ## Deployment
 
-This project can be deployed with GitHub Pages or any static hosting provider.
+GitHub Actions deploys the static site to GitHub Pages whenever changes are pushed to `main`. To enable the first deployment, open the repository's **Settings → Pages** and set the build and deployment source to **GitHub Actions**. The workflow publishes the repository's root files without a build step.
+
+After the workflow completes, the site is available at [https://basebuild17.github.io/Hacktoberfest-2026/](https://basebuild17.github.io/Hacktoberfest-2026/). You can also start a deployment manually from the **Actions** tab using **Deploy to GitHub Pages**.
 
 ## Contributing
 

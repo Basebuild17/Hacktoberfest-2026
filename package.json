@@ -39,3 +39,45 @@
     "access": "public"
   }
 }
+{
+  "name": "@basebuild17/hacktoberfest-2026",
+  "version": "1.0.0",
+  "description": "A Hacktoberfest 2026 landing page and community project website.",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/Basebuild17/Hacktoberfest-2026#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basebuild17/Hacktoberfest-2026.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Basebuild17/Hacktoberfest-2026/issues"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "2026",
+    "html",
+    "css",
+    "landing-page",
+    "community",
+    "open-source"
+  ],
+  "files": [
+    "index.html",
+    "styles.css",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "prepublishOnly": "npm pack --dry-run"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}

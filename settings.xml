@@ -8,3 +8,13 @@
     </server>
   </servers>
 </settings>
+<settings>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>YOUR_USERNAME</username>
+      <!-- Paste your GitHub Personal Access Token (PAT) with 'write:packages' scope below -->
+      <password>ghp_YOUR_PERSONAL_ACCESS_TOKEN_HERE</password>
+    </server>
+  </servers>
+</settings>
